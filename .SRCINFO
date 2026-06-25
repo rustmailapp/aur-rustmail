@@ -1,6 +1,6 @@
 pkgbase = rustmail-bin
 	pkgdesc = Self-hosted SMTP mail catcher with web UI, REST API, and CI assertions
-	pkgver = 0.4.0
+	pkgver = 0.5.0
 	pkgrel = 1
 	url = https://github.com/rustmailapp/rustmail
 	arch = x86_64
@@ -10,9 +10,9 @@ pkgbase = rustmail-bin
 	depends = glibc
 	provides = rustmail
 	conflicts = rustmail
-	source_x86_64 = https://github.com/rustmailapp/rustmail/releases/download/v0.4.0/rustmail-x86_64-unknown-linux-gnu.tar.gz
-	sha256sums_x86_64 = c92789a5be020dc97ce9b8c4db053119218534c430c38f2cf1c8b85f4100f3cf
-	source_aarch64 = https://github.com/rustmailapp/rustmail/releases/download/v0.4.0/rustmail-aarch64-unknown-linux-gnu.tar.gz
-	sha256sums_aarch64 = 606c19a31ec2315653801625b3703ab2ee5c75c8a43bcc0dfb890f23deff6a9f
+	source_x86_64 = https://github.com/rustmailapp/rustmail/releases/download/v0.5.0/rustmail-x86_64-unknown-linux-gnu.tar.gz
+	sha256sums_x86_64 = 3aed9708f863eb21ac289edb86633d9700e774cf87f28bf219e0b3f6248cc42c
+	source_aarch64 = https://github.com/rustmailapp/rustmail/releases/download/v0.5.0/rustmail-aarch64-unknown-linux-gnu.tar.gz
+	sha256sums_aarch64 = 113d863484a751ac6846970ee10dcd5640e125a1e8d15f59e453e9007628d875
 
 pkgname = rustmail-bin
