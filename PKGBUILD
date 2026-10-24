@@ -1,6 +1,6 @@
 # Maintainer: RustMail <hello@rustmail.app>
 pkgname=rustmail-bin
-pkgver=0.9.0
+pkgver=0.10.0
 pkgrel=1
 pkgdesc="Self-hosted SMTP mail catcher with web UI, REST API, and CI assertions"
 arch=('x86_64' 'aarch64')
@@ -13,8 +13,8 @@ depends=('glibc')
 source_x86_64=("${url}/releases/download/v${pkgver}/rustmail-x86_64-unknown-linux-gnu.tar.gz")
 source_aarch64=("${url}/releases/download/v${pkgver}/rustmail-aarch64-unknown-linux-gnu.tar.gz")
 
-sha256sums_x86_64=('821971309a48419c55bfe9a58ce54940d030d19f373b1e01a4febc8e06e8c7f9')
-sha256sums_aarch64=('d5c6e7fd90e37d41592a98aab616cb959b60b2caf0d3e617e7f8735b0b4038ea')
+sha256sums_x86_64=('877a1bf1c9321a2ca7df4f18a8a226549093b3291b29793b56d343b930ccb305')
+sha256sums_aarch64=('c92ea7ef09e1ff02309d45da8f3e75f7307e1bee57333ead43e238ee78d79d2b')
 
 package() {
   install -Dm755 rustmail "${pkgdir}/usr/bin/rustmail"
